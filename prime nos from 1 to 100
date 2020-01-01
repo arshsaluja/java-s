@@ -1,0 +1,21 @@
+//to generate all prime nos form 1 to 100
+class main 
+{
+    public static void main (String[] args) 
+    {
+    int i;int j;int c;
+    for(i=1;i<=100;i++)
+    {
+        c=0;
+        for(j=1;j<=i;j++)
+        {
+          if(i%j==0)
+          c++;
+        }
+                if(c==2)
+                    System.out.println("prime no"+ i);
+                
+    }
+    
+    }
+}
