@@ -1,3 +1,7 @@
+//*
+//**
+//***
+//****
 import java.util.*;
 class P1
 {
